@@ -20,4 +20,8 @@ function checkTypeNumber(givenNumber) {
     
   }
 
+  console.log(checkTypeNumber(10))
+  console.log(checkTypeNumber(11))
+  console.log(checkTypeNumber([]))
+  console.log(checkTypeNumber({}))
   console.log(checkTypeNumber())
